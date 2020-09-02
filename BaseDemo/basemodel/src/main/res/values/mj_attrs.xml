@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PagerSlidingTabStrip">
+        <!--底部滑动指示器的颜色-->
+        <attr name="pstsIndicatorColor" format="color" />
+        <!--指示器的高度-->
+        <attr name="pstsIndicatorHeight" format="dimension" />
+        <!--指示器的高度-->
+        <attr name="pstsIndicatorPadding" format="dimension" />
+        <!--底部用于给指示器滑动的区域的颜色-->
+        <attr name="pstsUnderlineColor" format="color" />
+        <!--底部区域的高度-->
+        <attr name="pstsUnderlineHeight" format="dimension" />
+        <!--分割线的颜色-->
+        <attr name="pstsDividerColor" format="color" />
+        <!--分割线与上下的间距-->
+        <attr name="pstsDividerPadding" format="dimension" />
+        <!--每个Tab的左右边距-->
+        <attr name="pstsTabPaddingLeftRight" format="dimension" />
+        <!--选中tab的滚动偏移量,个人基本没有用到过-->
+        <attr name="pstsScrollOffset" format="dimension" />
+        <!--每个Tab的背景图，StateListDrawable-->
+        <attr name="pstsTabBackground" format="reference" />
+        <!--是否根据tab均为位置，true的时候均分，默认为false,一般都是使用默认值-->
+        <attr name="pstsShouldExpand" format="boolean" />
+        <!--标题文本是否大写，默认为true-->
+        <attr name="pstsTextAllCaps" format="boolean" />
+        <!--标题文本字体大小，默认为12sp-->
+        <attr name="pstsTextSize" format="dimension" />
+        <!--标题文本的颜色-->
+        <attr name="pstsTextColor" format="color" />
+        <!--标题选中文本字体大小，默认为12sp-->
+        <attr name="pstsSelectTextSize" format="dimension" />
+        <!--标题选中文本的颜色-->
+        <attr name="pstsSelectTextColor" format="color" />
+        <!--每个分割线宽度-->
+        <attr name="pstsDividerWidth" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="StatusBarHeightView">
+        <attr name="use_type" format="integer">
+            <enum name="use_height" value="0" />
+            <enum name="use_padding_top" value="1" />
+        </attr>
+    </declare-styleable>
+
+</resources>
